@@ -1,0 +1,65 @@
+section#task-window {
+    margin: 2.5% 2%;
+    height: 75%;
+    width: 96%;
+}
+
+div.task {
+    position: relative;
+    display: inline-flex;
+    height: 49%;
+    width: 49.4%;
+    overflow: hidden;
+}
+div.task div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%) blur(0px);
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+div.task:hover div, div.task:focus div {
+    filter: grayscale(100%) blur(5px);
+    transform: scale(1.2);
+}
+div.task span {
+    font-family: UniversBold, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    color: var(--white);
+
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+
+    top: 50%;
+    transform: translate(0%, -50%);
+    margin-left: 5%;
+}
+div#task-1 {
+    background-image: url("../IMAGES/task1.jpg");
+}
+div#task-2 {
+    background-image: url("../IMAGES/task2.jpg");
+}
+div#task-3 {
+    background-image: url("../IMAGES/task3.jpg");
+}
+div#task-4 {
+    background-image: url("../IMAGES/task4.jpg");
+}
+
+div.h-space {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 0.5%;
+}
+div.v-space {
+    margin: 0;
+    padding: 0;
+    height: 2%;
+}

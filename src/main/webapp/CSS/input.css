@@ -1,0 +1,52 @@
+input[type=file] {
+    display: none;
+}
+
+input, label, select, option {
+    font-family: UniversRegular, sans-serif;
+    font-size: 1.2em;
+
+    max-width: 25%;
+    width: 25%;
+
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1% 1%;
+    margin-bottom: 1%;
+
+    outline: none;
+    border: none;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--white);
+}
+label {
+    display: flex;
+    cursor: pointer;
+    aspect-ratio: 1/1;
+
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+option {
+    font-size: 1em;
+    padding: 0.5% 1%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+input[type=button], input[type=submit] {
+    border-radius: 12px;
+    text-transform: uppercase;
+    padding: 0.5% 1%;
+    cursor: pointer;
+}
+input[type=button] {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+input[type=submit] {
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 5%;
+}

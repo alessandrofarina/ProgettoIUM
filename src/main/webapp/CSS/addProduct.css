@@ -1,0 +1,46 @@
+section#task-window {
+    margin: 2.5% 2%;
+    height: 75%;
+    width: 96%;
+
+    box-shadow: 3px 3px 20px 3px rgba(25,30,36,0.5);
+    border-radius: 5px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    font-family: UniversLight, sans-serif;
+    font-size: 0.7em;
+    color: var(--black);
+
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.1)), url("../IMAGES/task3.jpg");
+    filter: grayscale(100%) blur(0px);
+    background-position: center;
+    background-size: cover;
+
+    padding: 3%;
+}
+section#task-window::-webkit-scrollbar {
+    display: none;
+}
+
+span {
+    font-family: UniversBold, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4em;
+    color: var(--black);
+}
+
+p {
+    font-family: UniversRegular, sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: var(--black);
+
+    max-width: 50%;
+}
+
+form {
+    margin: 2% 0%;
+}

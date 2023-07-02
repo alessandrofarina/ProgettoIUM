@@ -1,0 +1,41 @@
+
+:root {
+    --wine: #702632;
+    --salmon: #F29CA3;
+    --white: #FEFEFA;
+    --black: #191E24;
+}
+
+@font-face {
+    font-family: "UniversBold";
+    src: url("../FONTS/UniversBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniversRegular";
+    src: url("../FONTS/UniversRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UniversLight";
+    src: url("../FONTS/UniversLight.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--white);
+
+    font-family: UniversRegular, sans-serif;
+    font-size: 1em;
+
+    margin: 0 auto;
+}
