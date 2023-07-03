@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="FoodShare:war" />
-      <artifact name="FoodShare:war exploded" />
+      <artifact name="ProgettoIUM22-23:war" />
+      <artifact name="ProgettoIUM22-23:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d417d906-f3c1-4b9a-ac93-6b387a5684e8" name="Changes" comment="Initial Commit" />
+    <list default="true" id="d417d906-f3c1-4b9a-ac93-6b387a5684e8" name="Changes" comment="Web Project Upload">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/ContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +31,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -54,16 +58,28 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="2S1Jsxl5j4gawhrwbTYdnPVnoSz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/Alessandro/IdeaProjects/ProgettoIUM22-23",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alessandro/IdeaProjects/ProgettoIUM22-23&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alessandro\IdeaProjects\ProgettoIUM22-23" />
@@ -76,16 +92,17 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="17" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="FoodShare:war">
+        <artifact name="ProgettoIUM22-23:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/FoodShare_war" />
+            <option name="CONTEXT_PATH" value="/ProgettoIUM22_23_war" />
           </settings>
         </artifact>
-        <artifact name="FoodShare:war exploded">
+        <artifact name="ProgettoIUM22-23:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/FoodShare_war_exploded" />
+            <option name="CONTEXT_PATH" value="/ProgettoIUM22_23_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -163,14 +180,35 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="FoodShare:war" />
-          <artifact name="FoodShare:war exploded" />
+          <artifact name="ProgettoIUM22-23:war" />
+          <artifact name="ProgettoIUM22-23:war exploded" />
         </option>
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Web Project Upload">
+      <created>1688304465172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688304465172</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d417d906-f3c1-4b9a-ac93-6b387a5684e8" name="Changes" comment="Web Project Upload" />
+      <created>1688308366162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688308366162</updated>
+      <workItem from="1688308367441" duration="1405000" />
+      <workItem from="1688395151434" duration="227000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -182,5 +220,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Web Project Upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web Project Upload" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

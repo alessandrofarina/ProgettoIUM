@@ -21,6 +21,10 @@ public class ContextListener implements ServletContextListener, HttpSessionListe
         foods.add(new Food("Lenticchie In Lattina", 10, Food.Urgency.Media));
         foods.add(new Food("Tonno In Scatola", 28, Food.Urgency.Alta));
         foods.add(new Food("Pasta", 41, Food.Urgency.Alta));
+        foods.add(new Food("Vongole Surgelate", 10, Food.Urgency.Bassa));
+        foods.add(new Food("Panini da Forno", 30, Food.Urgency.Alta));
+        foods.add(new Food("Biscotti", 10, Food.Urgency.Bassa));
+        foods.add(new Food("Coca Cola", 16, Food.Urgency.Bassa));
 
         sce.getServletContext().setAttribute("Foods", foods);
 
